@@ -28,7 +28,7 @@ const Navbar = ({
 }: NavbarProps) => {
   const menuItems = [
     { label: isNepali ? "गृहपृष्ठ" : "Home", href: "#" },
-    { label: isNepali ? "हाम्रोबारे" : "About Us", href: "#about" },
+    { label: isNepali ? "हाम्रो बारे" : "About Us", href: "#about" },
     { label: isNepali ? "उत्पादनहरू" : "Products", href: "#products" },
     { label: isNepali ? "अनुसन्धान" : "Research", href: "#research" },
     { label: isNepali ? "सम्पर्क" : "Contact", href: "#contact" },
@@ -39,11 +39,11 @@ const Navbar = ({
       <div className="max-w-7xl mx-auto h-full flex items-center">
         <div className="flex items-center space-x-4">
           <a href="/" className="flex items-center space-x-2">
-            <img src="/vite.svg" alt="Logo" className="w-8 h-8" />
+            <img src="/Logo-removebg.png" alt="Logo" className="w-8 h-8" />
             <span className="font-bold text-xl hidden md:inline-block">
               {isNepali
-                ? "कृत्रिम बौद्धिकता अनुसन्धान केन्द्र"
-                : "AI Research Center"}
+                ? "कृत्रिम बौद्धिकता अनुसन्धान केन्द्र नेपाल"
+                : "Kritrim Baudhikata Anusandhan Kendra Nepal"}
             </span>
           </a>
         </div>
@@ -87,8 +87,8 @@ const Navbar = ({
               <SheetHeader>
                 <SheetTitle>
                   {isNepali
-                    ? "कृत्रिम बौद्धिकता अनुसन्धान केन्द्र"
-                    : "AI Research Center"}
+                    ? "कृत्रिम बौद्धिकता अनुसन्धान केन्द्र नेपाल"
+                    : "Kritrim Baudhikata Anusandhan Kendra Nepal"}
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col space-y-4 mt-6">

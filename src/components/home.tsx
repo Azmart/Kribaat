@@ -17,7 +17,7 @@ interface NavbarComponentProps {
 const NavbarComponent = React.lazy(() => import("./Navbar"));
 
 interface HomeProps {
-  initialLanguage?: "en" | "np";
+  initialLanguage?: "np" | "en";
 }
 
 const Home = ({ initialLanguage = "en" }: HomeProps) => {

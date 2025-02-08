@@ -13,7 +13,7 @@ interface HeroSectionProps {
 
 const HeroSection = ({
   title = {
-    en: "AI Research Center Nepal",
+    en: "Kritrim Baudhikata Anusandhan Kendra Nepal",
     np: "कृत्रिम बौद्धिकता अनुसन्धान केन्द्र नेपाल",
   },
   mission = "Advancing AI research and innovation in Nepal through cutting-edge technology and cultural integration",
